@@ -1,0 +1,781 @@
+ 8: Pytorch version 1.3.1
+ 9: Pytorch version 1.3.1
+10: Pytorch version 1.3.1
+11: Pytorch version 1.3.1
+12: Pytorch version 1.3.1
+13: Pytorch version 1.3.1
+14: Pytorch version 1.3.1
+15: Pytorch version 1.3.1
+ 0: Pytorch version 1.3.1
+ 2: Pytorch version 1.3.1
+ 7: Pytorch version 1.3.1
+ 1: Pytorch version 1.3.1
+ 3: Pytorch version 1.3.1
+ 4: Pytorch version 1.3.1
+ 5: Pytorch version 1.3.1
+ 6: Pytorch version 1.3.1
+10: Rank 10 size 16 device cuda:2 count 8
+13: Rank 13 size 16 device cuda:5 count 8
+11: Rank 11 size 16 device cuda:3 count 8
+ 9: Rank 9 size 16 device cuda:1 count 8
+14: Rank 14 size 16 device cuda:6 count 8
+12: Rank 12 size 16 device cuda:4 count 8
+ 8: Rank 8 size 16 device cuda:0 count 8
+15: Rank 15 size 16 device cuda:7 count 8
+ 6: Rank 6 size 16 device cuda:6 count 8
+ 4: Rank 4 size 16 device cuda:4 count 8
+ 7: Rank 7 size 16 device cuda:7 count 8
+ 0: Rank 0 size 16 device cuda:0 count 8
+ 5: Rank 5 size 16 device cuda:5 count 8
+ 3: Rank 3 size 16 device cuda:3 count 8
+ 2: Rank 2 size 16 device cuda:2 count 8
+ 1: Rank 1 size 16 device cuda:1 count 8
+ 0: local result: tensor(-572.5027, device='cuda:0')
+ 1: local result: tensor(306.6263, device='cuda:1')
+ 2: local result: tensor(13.8413, device='cuda:2')
+ 3: local result: tensor(192.0214, device='cuda:3')
+ 4: local result: tensor(149.9692, device='cuda:4')
+ 5: local result: tensor(394.6609, device='cuda:5')
+ 6: local result: tensor(545.3092, device='cuda:6')
+ 7: local result: tensor(1030.2327, device='cuda:7')
+ 0: cgpu08:14057:14057 [0] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 0: cgpu08:14057:14057 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 0: cgpu08:14057:14057 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 0: NCCL version 2.4.8+cuda10.1
+ 4: cgpu08:14067:14067 [4] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 4: cgpu08:14067:14067 [4] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 2: cgpu08:14059:14059 [2] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 2: cgpu08:14059:14059 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 7: cgpu08:14070:14070 [7] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 7: cgpu08:14070:14070 [7] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 3: cgpu08:14066:14066 [3] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 6: cgpu08:14069:14069 [6] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 3: cgpu08:14066:14066 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 1: cgpu08:14058:14058 [1] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 6: cgpu08:14069:14069 [6] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 1: cgpu08:14058:14058 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 5: cgpu08:14068:14068 [5] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.108<0> [1]ib4:128.55.150.51<0> [2]ib6:10.100.105.108<0>
+ 5: cgpu08:14068:14068 [5] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 4: cgpu08:14067:14067 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 3: cgpu08:14066:14066 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 2: cgpu08:14059:14059 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 5: cgpu08:14068:14068 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 7: cgpu08:14070:14070 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 6: cgpu08:14069:14069 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 1: cgpu08:14058:14058 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.108<0>
+ 0: cgpu08:14057:14582 [0] NCCL INFO Setting affinity for GPU 0 to 0fffff00,000fffff
+ 6: cgpu08:14069:14647 [6] NCCL INFO Setting affinity for GPU 6 to ffff,f00000ff,fff00000
+ 4: cgpu08:14067:14648 [4] NCCL INFO Setting affinity for GPU 4 to ffff,f00000ff,fff00000
+ 3: cgpu08:14066:14651 [3] NCCL INFO Setting affinity for GPU 3 to 0fffff00,000fffff
+ 7: cgpu08:14070:14652 [7] NCCL INFO Setting affinity for GPU 7 to ffff,f00000ff,fff00000
+ 2: cgpu08:14059:14649 [2] NCCL INFO Setting affinity for GPU 2 to 0fffff00,000fffff
+ 5: cgpu08:14068:14650 [5] NCCL INFO Setting affinity for GPU 5 to ffff,f00000ff,fff00000
+ 1: cgpu08:14058:14653 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff00,000fffff
+ 8: local result: tensor(255.7981, device='cuda:0')
+ 9: local result: tensor(-68.9723, device='cuda:1')
+10: local result: tensor(-300.9333, device='cuda:2')
+11: local result: tensor(-365.4136, device='cuda:3')
+12: local result: tensor(-334.1612, device='cuda:4')
+13: local result: tensor(-72.8141, device='cuda:5')
+14: local result: tensor(140.0299, device='cuda:6')
+15: local result: tensor(10.6035, device='cuda:7')
+14: cgpu09:31645:31645 [6] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+12: cgpu09:31643:31643 [4] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+ 9: cgpu09:31640:31640 [1] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+15: cgpu09:31646:31646 [7] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+10: cgpu09:31641:31641 [2] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+11: cgpu09:31642:31642 [3] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+13: cgpu09:31644:31644 [5] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+ 8: cgpu09:31639:31639 [0] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.109<0> [1]ib4:128.55.150.52<0> [2]ib6:10.100.105.109<0>
+ 9: cgpu09:31640:31640 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+10: cgpu09:31641:31641 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+12: cgpu09:31643:31643 [4] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+14: cgpu09:31645:31645 [6] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+15: cgpu09:31646:31646 [7] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+11: cgpu09:31642:31642 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+13: cgpu09:31644:31644 [5] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 8: cgpu09:31639:31639 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so).
+ 8: cgpu09:31639:31639 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+13: cgpu09:31644:31644 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+ 9: cgpu09:31640:31640 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+12: cgpu09:31643:31643 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+11: cgpu09:31642:31642 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+10: cgpu09:31641:31641 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+15: cgpu09:31646:31646 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+14: cgpu09:31645:31645 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB [2]mlx5_4:1/IB [3]mlx5_6:1/IB [4]mlx4_0:1/RoCE [5]mlx5_1:1/IB [6]mlx5_3:1/RoCE [7]mlx5_5:1/IB [8]mlx5_7:1/IB ; OOB ib1:10.101.105.109<0>
+ 8: cgpu09:31639:32185 [0] NCCL INFO Setting affinity for GPU 0 to 0fffff00,000fffff
+15: cgpu09:31646:32183 [7] NCCL INFO Setting affinity for GPU 7 to ffff,f00000ff,fff00000
+12: cgpu09:31643:32184 [4] NCCL INFO Setting affinity for GPU 4 to ffff,f00000ff,fff00000
+ 9: cgpu09:31640:32186 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff00,000fffff
+13: cgpu09:31644:32187 [5] NCCL INFO Setting affinity for GPU 5 to ffff,f00000ff,fff00000
+11: cgpu09:31642:32188 [3] NCCL INFO Setting affinity for GPU 3 to 0fffff00,000fffff
+10: cgpu09:31641:32189 [2] NCCL INFO Setting affinity for GPU 2 to 0fffff00,000fffff
+14: cgpu09:31645:32190 [6] NCCL INFO Setting affinity for GPU 6 to ffff,f00000ff,fff00000
+ 8: cgpu09:31639:32185 [0] NCCL INFO CUDA Dev 0[0], IB NIC distance :  PIX NODE SYS SYS SYS PIX NODE SYS SYS
+10: cgpu09:31641:32189 [2] NCCL INFO CUDA Dev 2[2], IB NIC distance :  NODE PIX SYS SYS SYS NODE PIX SYS SYS
+ 9: cgpu09:31640:32186 [1] NCCL INFO CUDA Dev 1[1], IB NIC distance :  PIX NODE SYS SYS SYS PIX NODE SYS SYS
+13: cgpu09:31644:32187 [5] NCCL INFO CUDA Dev 5[5], IB NIC distance :  SYS SYS PIX NODE NODE SYS SYS PIX NODE
+12: cgpu09:31643:32184 [4] NCCL INFO CUDA Dev 4[4], IB NIC distance :  SYS SYS PIX NODE NODE SYS SYS PIX NODE
+14: cgpu09:31645:32190 [6] NCCL INFO CUDA Dev 6[6], IB NIC distance :  SYS SYS NODE PIX NODE SYS SYS NODE PIX
+15: cgpu09:31646:32183 [7] NCCL INFO CUDA Dev 7[7], IB NIC distance :  SYS SYS NODE PIX NODE SYS SYS NODE PIX
+11: cgpu09:31642:32188 [3] NCCL INFO CUDA Dev 3[3], IB NIC distance :  NODE PIX SYS SYS SYS NODE PIX SYS SYS
+ 6: cgpu08:14069:14647 [6] NCCL INFO CUDA Dev 6[6], IB NIC distance :  SYS SYS NODE PIX NODE SYS SYS NODE PIX
+ 7: cgpu08:14070:14652 [7] NCCL INFO CUDA Dev 7[7], IB NIC distance :  SYS SYS NODE PIX NODE SYS SYS NODE PIX
+ 0: cgpu08:14057:14582 [0] NCCL INFO CUDA Dev 0[0], IB NIC distance :  PIX NODE SYS SYS SYS PIX NODE SYS SYS
+ 1: cgpu08:14058:14653 [1] NCCL INFO CUDA Dev 1[1], IB NIC distance :  PIX NODE SYS SYS SYS PIX NODE SYS SYS
+ 3: cgpu08:14066:14651 [3] NCCL INFO CUDA Dev 3[3], IB NIC distance :  NODE PIX SYS SYS SYS NODE PIX SYS SYS
+ 2: cgpu08:14059:14649 [2] NCCL INFO CUDA Dev 2[2], IB NIC distance :  NODE PIX SYS SYS SYS NODE PIX SYS SYS
+ 4: cgpu08:14067:14648 [4] NCCL INFO CUDA Dev 4[4], IB NIC distance :  SYS SYS PIX NODE NODE SYS SYS PIX NODE
+ 5: cgpu08:14068:14650 [5] NCCL INFO CUDA Dev 5[5], IB NIC distance :  SYS SYS PIX NODE NODE SYS SYS PIX NODE
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 00 :    0   2   3   7   4   6   5   1   8  10  11  15  12  14  13   9
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 01 :    0   4   7   6   5   1   3  10   8  12  15  14  13   9  11   2
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 02 :    0   3   1   2   6   7   5  12   8  11   9  10  14  15  13   4
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 03 :    0   1   5   4   7  14  10  11   8   9  13  12  15   6   2   3
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 04 :    0   4   5   6   7   3   2   1   8  12  13  14  15  11  10   9
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 05 :    0   3  10   9  13  15  14  12   8  11   2   1   5   7   6   4
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 06 :    0   2   3   7   4   6   5   1   8  10  11  15  12  14  13   9
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 07 :    0   4   7   6   5   1   3  10   8  12  15  14  13   9  11   2
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 08 :    0   3   1   2   6   7   5  12   8  11   9  10  14  15  13   4
+ 0: cgpu08:14057:14582 [0] NC
+ 0: CL INFO Channel 09 :    0   1   5   4   7  14  10  11   8   9  13  12  15   6   2   3
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 10 :    0   4   5   6   7   3   2   1   8  12  13  14  15  11  10   9
+ 0: cgpu08:14057:14582 [0] NCCL INFO Channel 11 :    0   3  10   9  13  15  14  12   8  11   2   1   5   7   6   4
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 00 : 9 -> 0 [receive] via NET/IB/0
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 00 : 1 -> 8 [receive] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 00 : 0[0] -> 2[2] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 00 : 8[0] -> 10[2] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 00 : 4[4] -> 6[6] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 00 : 7[7] -> 4[4] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 00 : 3[3] -> 7[7] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 00 : 6[6] -> 5[5] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 00 : 5[5] -> 1[1] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 00 : 2[2] -> 3[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 00 : 1 -> 8 [send] via NET/IB/0
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 00 : 15[7] -> 12[4] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 00 : 11[3] -> 15[7] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 00 : 12[4] -> 14[6] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 00 : 13[5] -> 9[1] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 00 : 10[2] -> 11[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2841 mtu 5 LID 39
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 00 : 14[6] -> 13[5] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 00 : 9 -> 0 [send] via NET/IB/0
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8106 mtu 5 LID 21
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 00 : 1[1] -> 5[5] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 00 : 9[1] -> 13[5] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 00 : 8 -> 0 [receive] via NET/IB/0
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 00 : 4[4] -> 7[7] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 00 : 7[7] -> 3[3] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 00 : 3[3] -> 2[2] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 00 : 6[6] -> 4[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 00 : 5[5] -> 6[6] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 00 : 2[2] -> 0[0] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 00 : 15[7] -> 11[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 00 : 11[3] -> 10[2] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 00 : 12[4] -> 15[7] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 00 : 13[5] -> 14[6] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 00 : 10[2] -> 8[0] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 00 : 8 -> 0 [send] via NET/IB/0
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 00 : 14[6] -> 12[4] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8107 mtu 5 LID 21
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 01 : 11 -> 2 [receive] via NET/IB/6
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 00 : 0 -> 8 [receive] via NET/IB/0
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 01 : 3 -> 10 [receive] via NET/IB/6
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 01 : 1[1] -> 3[3] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 01 : 2[2] -> 0[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 01 : 9[1] -> 11[3] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 00 : 0 -> 8 [send] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2844 mtu 5 LID 39
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 01 : 10[2] -> 8[0] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 01 : 4[4] -> 7[7] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 01 : 7[7] -> 6[6] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 01 : 6[6] -> 5[5] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 01 : 5[5] -> 1[1] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 01 : 3 -> 10 [send] via NET/IB/6
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2510 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 01 : 15[7] -> 14[6] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 01 : 12[4] -> 15[7] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 01 : 13[5] -> 9[1] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 01 : 14[6] -> 13[5] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 01 : 11 -> 2 [send] via NET/IB/6
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2565 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 01 : 3[3] -> 1[1] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 01 : 0[0] -> 4[4] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 01 : 8[0] -> 12[4] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 01 : 1[1] -> 5[5] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 01 : 11[3] -> 9[1] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 01 : 7[7] -> 4[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 01 : 5[5] -> 6[6] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 01 : 6[6] -> 7[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 01 : 10 -> 2 [receive] via NET/IB/6
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 01 : 9[1] -> 13[5] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 01 : 15[7] -> 12[4] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 01 : 13[5] -> 14[6] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 01 : 14[6] -> 15[7] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 02 : 3[3] -> 1[1] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 01 : 4[4] -> 0[0] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 01 : 10 -> 2 [send] via NET/IB/6
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 01 : 0[0] -> 2[2] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2567 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 02 : 13 -> 4 [receive] via NET/IB/2
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 02 : 1[1] -> 2[2] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 01 : 12[4] -> 8[0] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 02 : 6[6] -> 7[7] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 5[5] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 01 : 8[0] -> 10[2] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 02 : 5 -> 12 [send] via NET/IB/2
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 02 : 11[3] -> 9[1] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 01 : 2 -> 10 [receive] via NET/IB/6
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 02 : 7[7] -> 5[5] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 02 : 4[4] -> 0[0] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 01 : 2 -> 10 [send] via NET/IB/6
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 02 : 5 -> 12 [receive] via NET/IB/2
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2513 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+ 5: cgpu08:14068:14650 [5] NCCL INFO NET/IB: Dev 2 Port 1 qpn 2841 mtu 5 LID 50
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 02 : 0[0] -> 3[3] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 02 : 9[1] -> 10[2] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 5[5] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 02 : 5[5] -> 7[7] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 02 : 15[7] -> 13[5] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 02 : 14[6] -> 15[7] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 02 : 12[4] -> 8[0] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 02 : 13 -> 4 [send] via NET/IB/2
+13: cgpu09:31644:32187 [5] NCCL INFO NET/IB: Dev 2 Port 1 qpn 8026 mtu 5 LID 28
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 02 : 7[7] -> 6[6] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 02 : 2[2] -> 6[6] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 02 : 8[0] -> 11[3] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 02 : 10[2] -> 14[6] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 02 : 13[5] -> 15[7] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 02 : 12 -> 4 [receive] via NET/IB/2
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 02 : 3[3] -> 0[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 02 : 0[0] -> 4[4] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 02 : 1[1] -> 3[3] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 03 : 5[5] -> 4[4] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 02 : 15[7] -> 14[6] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 02 : 6[6] -> 2[2] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 02 : 9[1] -> 11[3] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 02 : 2[2] -> 1[1] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 02 : 12 -> 4 [send] via NET/IB/2
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 03 : 15 -> 6 [receive] via NET/IB/8
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB: Dev 2 Port 1 qpn 8028 mtu 5 LID 28
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 02 : 11[3] -> 8[0] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 02 : 14[6] -> 10[2] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 02 : 8[0] -> 12[4] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 03 : 3[3] -> 0[0] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 02 : 10[2] -> 9[1] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 03 : 13[5] -> 12[4] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 03 : 0[0] -> 1[1] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 02 : 4 -> 12 [receive] via NET/IB/2
+ 7: cgpu08:14070:14652 [7] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 7[7] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 03 : 6[6] -> 2[2] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 03 : 7 -> 14 [receive] via NET/IB/8
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 03 : 7 -> 14 [send] via NET/IB/8
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 7: cgpu08:14070:14652 [7] NCCL INFO NET/IB: Dev 8 Port 1 qpn 195696 mtu 5 LID 313
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 02 : 4 -> 12 [send] via NET/IB/2
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB: Dev 2 Port 1 qpn 2844 mtu 5 LID 50
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 03 : 1[1] -> 5[5] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 03 : 2[2] -> 3[3] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 7[7] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 03 : 14[6] -> 10[2] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 03 : 15 -> 6 [send] via NET/IB/8
+15: cgpu09:31646:32183 [7] NCCL INFO NET/IB: Dev 8 Port 1 qpn 215787 mtu 5 LID 309
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 03 : 0[0] -> 3[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 03 : 11[3] -> 8[0] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 03 : 4[4] -> 7[7] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 03 : 9[1] -> 13[5] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 03 : 8[0] -> 9[1] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 03 : 10[2] -> 11[3] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 03 : 3[3] -> 2[2] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 03 : 1[1] -> 0[0] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 03 : 12[4] -> 15[7] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 03 : 14 -> 6 [receive] via NET/IB/8
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 03 : 2[2] -> 6[6] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 04 : 9 -> 0 [receive] via NET/IB/0
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 03 : 7[7] -> 4[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 03 : 5[5] -> 1[1] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 04 : 0[0] -> 4[4] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 03 : 15[7] -> 12[4] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 03 : 4[4] -> 5[5] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 03 : 14 -> 6 [send] via NET/IB/8
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 03 : 13[5] -> 9[1] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB: Dev 8 Port 1 qpn 215789 mtu 5 LID 309
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 04 : 3[3] -> 2[2] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 03 : 11[3] -> 10[2] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 03 : 8[0] -> 11[3] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 03 : 9[1] -> 8[0] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 03 : 10[2] -> 14[6] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 04 : 2[2] -> 1[1] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 03 : 6 -> 14 [receive] via NET/IB/8
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 04 : 1 -> 8 [receive] via NET/IB/0
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 04 : 1 -> 8 [send] via NET/IB/0
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 03 : 12[4] -> 13[5] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 04 : 7[7] -> 3[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2845 mtu 5 LID 39
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 03 : 6 -> 14 [send] via NET/IB/8
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB: Dev 8 Port 1 qpn 195699 mtu 5 LID 313
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 04 : 5[5] -> 6[6] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 04 : 4[4] -> 5[5] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 04 : 1[1] -> 2[2] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 04 : 8[0] -> 12[4] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 04 : 15[7] -> 11[3] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 04 : 2[2] -> 3[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 04 : 11[3] -> 10[2] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 04 : 3[3] -> 7[7] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 05 : 11 -> 2 [receive] via NET/IB/6
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 04 : 10[2] -> 9[1] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 04 : 6[6] -> 7[7] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 04 : 9 -> 0 [send] via NET/IB/0
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8110 mtu 5 LID 21
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 04 : 13[5] -> 14[6] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 04 : 12[4] -> 13[5] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 04 : 14[6] -> 15[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 05 : 2[2] -> 1[1] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 04 : 4[4] -> 0[0] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 05 : 1[1] -> 5[5] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 04 : 5[5] -> 4[4] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 04 : 9[1] -> 10[2] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 04 : 8 -> 0 [receive] via NET/IB/0
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 04 : 7[7] -> 6[6] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 04 : 6[6] -> 5[5] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 04 : 11[3] -> 15[7] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 04 : 8 -> 0 [send] via NET/IB/0
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8111 mtu 5 LID 21
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 04 : 10[2] -> 11[3] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 04 : 13[5] -> 12[4] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 05 : 3 -> 10 [send] via NET/IB/6
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 05 : 4[4] -> 0[0] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 04 : 15[7] -> 14[6] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 05 : 3 -> 10 [receive] via NET/IB/6
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 04 : 12[4] -> 8[0] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2514 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 04 : 14[6] -> 13[5] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 04 : 0 -> 8 [receive] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 05 : 5[5] -> 7[7] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 05 : 7[7] -> 6[6] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 04 : 0 -> 8 [send] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2848 mtu 5 LID 39
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 05 : 6[6] -> 4[4] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 05 : 9[1] -> 13[5] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 05 : 10[2] -> 9[1] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 05 : 1[1] -> 2[2] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 05 : 11 -> 2 [send] via NET/IB/6
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2570 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 05 : 0[0] -> 3[3] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 05 : 5[5] -> 1[1] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 05 : 7[7] -> 5[5] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 05 : 6[6] -> 7[7] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 05 : 15[7] -> 14[6] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 05 : 13[5] -> 15[7] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 05 : 12[4] -> 8[0] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 05 : 3[3] -> 0[0] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 05 : 14[6] -> 12[4] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 05 : 4[4] -> 6[6] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 05 : 8[0] -> 11[3] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 05 : 10 -> 2 [receive] via NET/IB/6
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 05 : 0[0] -> 4[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 06 : 5[5] -> 1[1] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 06 : 7[7] -> 4[4] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 05 : 10 -> 2 [send] via NET/IB/6
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 05 : 9[1] -> 10[2] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2571 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 06 : 9 -> 0 [receive] via NET/IB/0
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 05 : 11[3] -> 8[0] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 05 : 2 -> 10 [receive] via NET/IB/6
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 06 : 6[6] -> 5[5] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 05 : 13[5] -> 9[1] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 05 : 15[7] -> 13[5] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 06 : 3[3] -> 7[7] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 05 : 12[4] -> 14[6] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 06 : 1 -> 8 [send] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 06 : 0[0] -> 2[2] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 05 : 14[6] -> 15[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 05 : 2 -> 10 [send] via NET/IB/6
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2517 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 05 : 8[0] -> 12[4] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 06 : 4[4] -> 6[6] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 06 : 1 -> 8 [receive] via NET/IB/0
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2849 mtu 5 LID 39
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 06 : 5[5] -> 6[6] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 06 : 7[7] -> 3[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 06 : 1[1] -> 5[5] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 06 : 11[3] -> 15[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 06 : 2[2] -> 3[3] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 06 : 8[0] -> 10[2] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 06 : 6[6] -> 4[4] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 06 : 4[4] -> 7[7] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 06 : 9 -> 0 [send] via NET/IB/0
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 06 : 13[5] -> 9[1] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 06 : 15[7] -> 12[4] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8114 mtu 5 LID 21
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 06 : 12[4] -> 14[6] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 06 : 10[2] -> 11[3] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 06 : 14[6] -> 13[5] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 06 : 9[1] -> 13[5] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 06 : 0 -> 8 [receive] via NET/IB/0
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 07 : 5[5] -> 1[1] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 07 : 1[1] -> 3[3] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 06 : 3[3] -> 2[2] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 06 : 2[2] -> 0[0] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 07 : 6[6] -> 5[5] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 07 : 4[4] -> 7[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 06 : 15[7] -> 11[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 06 : 11[3] -> 10[2] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 06 : 13[5] -> 14[6] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 07 : 11 -> 2 [receive] via NET/IB/6
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 06 : 0 -> 8 [send] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2851 mtu 5 LID 39
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 06 : 12[4] -> 15[7] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 06 : 10[2] -> 8[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 06 : 14[6] -> 12[4] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 06 : 8 -> 0 [receive] via NET/IB/0
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 07 : 7[7] -> 6[6] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 07 : 3 -> 10 [receive] via NET/IB/6
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 07 : 2[2] -> 0[0] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 07 : 5[5] -> 6[6] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 07 : 3 -> 10 [send] via NET/IB/6
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2518 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 07 : 9[1] -> 11[3] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 06 : 8 -> 0 [send] via NET/IB/0
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8116 mtu 5 LID 21
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 07 : 10[2] -> 8[0] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 07 : 6[6] -> 7[7] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 07 : 1[1] -> 5[5] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 07 : 7[7] -> 4[4] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 07 : 3[3] -> 1[1] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 07 : 15[7] -> 14[6] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 07 : 13[5] -> 9[1] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 07 : 11 -> 2 [send] via NET/IB/6
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 07 : 12[4] -> 15[7] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2573 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 07 : 14[6] -> 13[5] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 07 : 0[0] -> 4[4] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 07 : 11[3] -> 9[1] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 07 : 8[0] -> 12[4] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 08 : 6[6] -> 7[7] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 5[5] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 08 : 1[1] -> 2[2] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 08 : 5 -> 12 [send] via NET/IB/2
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 08 : 3[3] -> 1[1] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 07 : 2 -> 10 [receive] via NET/IB/6
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 07 : 9[1] -> 13[5] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 07 : 2 -> 10 [send] via NET/IB/6
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2520 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 07 : 15[7] -> 12[4] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 07 : 13[5] -> 14[6] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 07 : 4[4] -> 0[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 07 : 0[0] -> 2[2] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 07 : 14[6] -> 15[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 07 : 10 -> 2 [receive] via NET/IB/6
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 08 : 13 -> 4 [receive] via NET/IB/2
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 08 : 7[7] -> 5[5] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 08 : 4[4] -> 0[0] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 07 : 12[4] -> 8[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 08 : 0[0] -> 3[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 08 : 11[3] -> 9[1] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 07 : 8[0] -> 10[2] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 08 : 7[7] -> 6[6] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 08 : 5 -> 12 [receive] via NET/IB/2
+ 5: cgpu08:14068:14650 [5] NCCL INFO NET/IB: Dev 2 Port 1 qpn 2845 mtu 5 LID 50
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 08 : 3[3] -> 0[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 08 : 0[0] -> 4[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 08 : 5[5] -> 7[7] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 08 : 9[1] -> 10[2] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 08 : 15[7] -> 13[5] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 5[5] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 09 : 5[5] -> 4[4] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 08 : 12[4] -> 8[0] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 08 : 14[6] -> 15[7] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 07 : 10 -> 2 [send] via NET/IB/6
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 08 : 13 -> 4 [send] via NET/IB/2
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2576 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+13: cgpu09:31644:32187 [5] NCCL INFO NET/IB: Dev 2 Port 1 qpn 8030 mtu 5 LID 28
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 08 : 8[0] -> 11[3] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 08 : 13[5] -> 15[7] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 08 : 2[2] -> 6[6] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 08 : 4 -> 12 [send] via NET/IB/2
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 08 : 4 -> 12 [receive] via NET/IB/2
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB: Dev 2 Port 1 qpn 2847 mtu 5 LID 50
+ 4: cgpu08:14067:14648 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 08 : 15[7] -> 14[6] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 08 : 12 -> 4 [receive] via NET/IB/2
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 08 : 10[2] -> 14[6] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 08 : 1[1] -> 3[3] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 09 : 0[0] -> 1[1] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 08 : 6[6] -> 2[2] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 08 : 2[2] -> 1[1] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 08 : 11[3] -> 8[0] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 09 : 15 -> 6 [receive] via NET/IB/8
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 08 : 8[0] -> 12[4] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 09 : 13[5] -> 12[4] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 08 : 9[1] -> 11[3] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 09 : 3[3] -> 0[0] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 7[7] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 09 : 7 -> 14 [send] via NET/IB/8
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 09 : 6[6] -> 2[2] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 08 : 14[6] -> 10[2] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 08 : 10[2] -> 9[1] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 4[4] / HCA 2 'mlx5_4' (no module or not supported by GPU)
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 09 : 1[1] -> 5[5] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 09 : 2[2] -> 3[3] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 08 : 12 -> 4 [send] via NET/IB/2
+12: cgpu09:31643:32184 [4] NCCL INFO NET/IB: Dev 2 Port 1 qpn 8033 mtu 5 LID 28
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 09 : 7 -> 14 [receive] via NET/IB/8
+ 7: cgpu08:14070:14652 [7] NCCL INFO NET/IB: Dev 8 Port 1 qpn 195701 mtu 5 LID 313
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 09 : 0[0] -> 3[3] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 09 : 11[3] -> 8[0] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 7[7] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 09 : 8[0] -> 9[1] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 09 : 14[6] -> 10[2] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 09 : 15 -> 6 [send] via NET/IB/8
+15: cgpu09:31646:32183 [7] NCCL INFO NET/IB: Dev 8 Port 1 qpn 215793 mtu 5 LID 309
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 09 : 3[3] -> 2[2] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 09 : 1[1] -> 0[0] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 10 : 9 -> 0 [receive] via NET/IB/0
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 09 : 9[1] -> 13[5] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 09 : 2[2] -> 6[6] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 09 : 4[4] -> 7[7] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 09 : 10[2] -> 11[3] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 09 : 12[4] -> 15[7] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 10 : 0[0] -> 4[4] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 09 : 7[7] -> 4[4] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 09 : 6 -> 14 [receive] via NET/IB/8
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 09 : 5[5] -> 1[1] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 09 : 15[7] -> 12[4] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 09 : 8[0] -> 11[3] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 09 : 6 -> 14 [send] via NET/IB/8
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB: Dev 8 Port 1 qpn 195703 mtu 5 LID 313
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 10 : 3[3] -> 2[2] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 09 : 14 -> 6 [receive] via NET/IB/8
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 09 : 13[5] -> 9[1] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 09 : 4[4] -> 5[5] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 09 : 11[3] -> 10[2] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 09 : 9[1] -> 8[0] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 09 : 10[2] -> 14[6] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 10 : 1 -> 8 [receive] via NET/IB/0
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 10 : 2[2] -> 1[1] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 09 : 12[4] -> 13[5] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 10 : 7[7] -> 3[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 10 : 1 -> 8 [send] via NET/IB/0
+ 1: cgpu08:14058:14653 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2853 mtu 5 LID 39
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 10 : 8[0] -> 12[4] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 10 : 5[5] -> 6[6] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 6[6] / HCA 8 'mlx5_7' (no module or not supported by GPU)
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 10 : 4[4] -> 5[5] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 09 : 14 -> 6 [send] via NET/IB/8
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 10 : 1[1] -> 2[2] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO NET/IB: Dev 8 Port 1 qpn 215796 mtu 5 LID 309
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 10 : 15[7] -> 11[3] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 10 : 2[2] -> 3[3] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 11 : 11 -> 2 [receive] via NET/IB/6
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 10 : 3[3] -> 7[7] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 10 : 11[3] -> 10[2] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 1[1] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 10 : 13[5] -> 14[6] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 10 : 9 -> 0 [send] via NET/IB/0
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 10 : 10[2] -> 9[1] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8118 mtu 5 LID 21
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 10 : 12[4] -> 13[5] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 11 : 2[2] -> 1[1] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 10 : 4[4] -> 0[0] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 11 : 1[1] -> 5[5] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 10 : 6[6] -> 7[7] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 10 : 0 -> 8 [receive] via NET/IB/0
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 10 : 9[1] -> 10[2] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 10 : 14[6] -> 15[7] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 10 : 5[5] -> 4[4] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 10 : 0 -> 8 [send] via NET/IB/0
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 2855 mtu 5 LID 39
+ 0: cgpu08:14057:14582 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 10 : 11[3] -> 15[7] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 10 : 7[7] -> 6[6] via P2P/IPC
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 10 : 8 -> 0 [receive] via NET/IB/0
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 10 : 6[6] -> 5[5] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 10 : 10[2] -> 11[3] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 10 : 12[4] -> 8[0] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 10 : 13[5] -> 12[4] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 11 : 3 -> 10 [receive] via NET/IB/6
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 11 : 4[4] -> 0[0] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 11 : 3 -> 10 [send] via NET/IB/6
+ 3: cgpu08:14066:14651 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2522 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 10 : 15[7] -> 14[6] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 10 : 14[6] -> 13[5] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 11 : 7[7] -> 6[6] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 11 : 5[5] -> 7[7] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 0[0] / HCA 0 'mlx5_0' (no module or not supported by GPU)
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 11 : 9[1] -> 13[5] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 11 : 6[6] -> 4[4] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 10 : 8 -> 0 [send] via NET/IB/0
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 11 : 10[2] -> 9[1] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 8120 mtu 5 LID 21
+ 1: cgpu08:14058:14653 [1] NCCL INFO Ring 11 : 1[1] -> 2[2] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 3[3] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 11 : 12[4] -> 8[0] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 11 : 11 -> 2 [send] via NET/IB/6
+11: cgpu09:31642:32188 [3] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2578 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+ 7: cgpu08:14070:14652 [7] NCCL INFO Ring 11 : 7[7] -> 5[5] via P2P/IPC
+ 5: cgpu08:14068:14650 [5] NCCL INFO Ring 11 : 5[5] -> 1[1] via P2P/IPC
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 6: cgpu08:14069:14647 [6] NCCL INFO Ring 11 : 6[6] -> 7[7] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO Trees [0] 3->7->4/-1/-1 [1] 4->7->6/-1/-1 [2] 6->7->5/-1/-1 [3] 4->7->-1/-1/-1 [4] 6->7->3/-1/-1 [5] 5->7->6/-1/-1 [6] 3->7->4/-1/-1 [7] 4->7->6/-1/-1 [8] 6->7->5/-1/-1 [9] 4->7->-1/-1/-1 [10] 6->7->3/-1/-1 [11] 5->7->6/-1/-1
+ 5: cgpu08:14068:14650 [5] NCCL INFO Trees [0] 6->5->1/-1/-1 [1] 6->5->1/-1/-1 [2] 7->5->-1/-1/-1 [3] 1->5->4/-1/-1 [4] 4->5->6/-1/-1 [5] 1->5->7/-1/-1 [6] 6->5->1/-1/-1 [7] 6->5->1/-1/-1 [8] 7->5->-1/-1/-1 [9] 1->5->4/-1/-1 [10] 4->5->6/-1/-1 [11] 1->5->7/-1/-1
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 11 : 2 -> 10 [receive] via NET/IB/6
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 11 : 0[0] -> 3[3] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 11 : 13[5] -> 15[7] via P2P/IPC
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 11 : 15[7] -> 14[6] via P2P/IPC
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 11 : 14[6] -> 12[4] via P2P/IPC
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 11 : 8[0] -> 11[3] via P2P/IPC
+ 1: cgpu08:14058:14653 [1] NCCL INFO Trees [0] 5->1->-1/-1/-1 [1] 5->1->3/-1/-1 [2] 3->1->2/-1/-1 [3] 0->1->5/-1/-1 [4] 2->1->-1/-1/-1 [5] 2->1->5/-1/-1 [6] 5->1->-1/-1/-1 [7] 5->1->3/-1/-1 [8] 3->1->2/-1/-1 [9] 0->1->5/-1/-1 [10] 2->1->-1/-1/-1 [11] 2->1->5/-1/-1
+ 3: cgpu08:14066:14651 [3] NCCL INFO Ring 11 : 3[3] -> 0[0] via P2P/IPC
+ 7: cgpu08:14070:14652 [7] NCCL INFO comm 0x2aab74007df0 rank 7 nranks 16 cudaDev 7 nvmlDev 7 - Init COMPLETE
+ 5: cgpu08:14068:14650 [5] NCCL INFO comm 0x2aab74007df0 rank 5 nranks 16 cudaDev 5 nvmlDev 5 - Init COMPLETE
+ 5: cgpu08:14068:14068 [5] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecd00
+ 7: cgpu08:14070:14070 [7] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecd50
+ 4: cgpu08:14067:14648 [4] NCCL INFO Ring 11 : 4[4] -> 6[6] via P2P/IPC
+ 6: cgpu08:14069:14647 [6] NCCL INFO Trees [0] 4->6->5/-1/-1 [1] 7->6->5/-1/-1 [2] 2->6->7/-1/-1 [3] -1->6->2/14/-1 [4] 5->6->7/-1/-1 [5] 7->6->4/-1/-1 [6] 4->6->5/-1/-1 [7] 7->6->5/-1/-1 [8] 2->6->7/-1/-1 [9] 14->6->2/-1/-1 [10] 5->6->7/-1/-1 [11] 7->6->4/-1/-1
+ 9: cgpu09:31640:32186 [1] NCCL INFO Ring 11 : 9[1] -> 10[2] via P2P/IPC
+11: cgpu09:31642:32188 [3] NCCL INFO Ring 11 : 11[3] -> 8[0] via P2P/IPC
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 3: cgpu08:14066:14651 [3] NCCL INFO Trees [0] 2->3->7/-1/-1 [1] 1->3->-1/-1/-1 [2] 0->3->1/-1/-1 [3] 2->3->0/-1/-1 [4] 7->3->2/-1/-1 [5] 0->3->-1/-1/-1 [6] 2->3->7/-1/-1 [7] 1->3->-1/-1/-1 [8] 0->3->1/-1/-1 [9] 2->3->0/-1/-1 [10] 7->3->2/-1/-1 [11] 0->3->-1/-1/-1
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 11 : 2 -> 10 [send] via NET/IB/6
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2524 mtu 5 GID 0 (80FE/9FFCFAFEFF4B6B52)
+ 2: cgpu08:14059:14649 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+ 0: cgpu08:14057:14582 [0] NCCL INFO Ring 11 : 0[0] -> 4[4] via P2P/IPC
+ 4: cgpu08:14067:14648 [4] NCCL INFO Trees [0] 7->4->6/-1/-1 [1] 0->4->7/-1/-1 [2] -1->4->0/12/-1 [3] 5->4->7/-1/-1 [4] 0->4->5/-1/-1 [5] 6->4->0/-1/-1 [6] 7->4->6/-1/-1 [7] 0->4->7/-1/-1 [8] 12->4->0/-1/-1 [9] 5->4->7/-1/-1 [10] 0->4->5/-1/-1 [11] 6->4->0/-1/-1
+ 2: cgpu08:14059:14649 [2] NCCL INFO Ring 11 : 10 -> 2 [receive] via NET/IB/6
+ 1: cgpu08:14058:14653 [1] NCCL INFO comm 0x2aab74007df0 rank 1 nranks 16 cudaDev 1 nvmlDev 1 - Init COMPLETE
+ 1: cgpu08:14058:14058 [1] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecba0
+ 0: cgpu08:14057:14582 [0] NCCL INFO Trees [0] -1->0->2/8/-1 [1] 2->0->4/-1/-1 [2] 4->0->3/-1/-1 [3] 3->0->1/-1/-1 [4] -1->0->4/8/-1 [5] 4->0->3/-1/-1 [6] 8->0->2/-1/-1 [7] 2->0->4/-1/-1 [8] 4->0->3/-1/-1 [9] 3->0->1/-1/-1 [10] 8->0->4/-1/-1 [11] 4->0->3/-1/-1
+ 0: cgpu08:14057:14582 [0] NCCL INFO Using 256 threads, Min Comp Cap 7, Trees enabled for all sizes
+11: cgpu09:31642:32188 [3] NCCL INFO Trees [0] 10->11->15/-1/-1 [1] 9->11->-1/-1/-1 [2] 8->11->9/-1/-1 [3] 10->11->8/-1/-1 [4] 15->11->10/-1/-1 [5] 8->11->-1/-1/-1 [6] 10->11->15/-1/-1 [7] 9->11->-1/-1/-1 [8] 8->11->9/-1/-1 [9] 10->11->8/-1/-1 [10] 15->11->10/-1/-1 [11] 8->11->-1/-1/-1
+ 6: cgpu08:14069:14647 [6] NCCL INFO comm 0x2aab74007df0 rank 6 nranks 16 cudaDev 6 nvmlDev 6 - Init COMPLETE
+ 6: cgpu08:14069:14069 [6] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecd00
+12: cgpu09:31643:32184 [4] NCCL INFO Ring 11 : 12[4] -> 14[6] via P2P/IPC
+13: cgpu09:31644:32187 [5] NCCL INFO Ring 11 : 13[5] -> 9[1] via P2P/IPC
+ 9: cgpu09:31640:32186 [1] NCCL INFO Trees [0] 13->9->-1/-1/-1 [1] 13->9->11/-1/-1 [2] 11->9->10/-1/-1 [3] 8->9->13/-1/-1 [4] 10->9->-1/-1/-1 [5] 10->9->13/-1/-1 [6] 13->9->-1/-1/-1 [7] 13->9->11/-1/-1 [8] 11->9->10/-1/-1 [9] 8->9->13/-1/-1 [10] 10->9->-1/-1/-1 [11] 10->9->13/-1/-1
+15: cgpu09:31646:32183 [7] NCCL INFO Ring 11 : 15[7] -> 13[5] via P2P/IPC
+ 3: cgpu08:14066:14651 [3] NCCL INFO comm 0x2aab74007df0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 - Init COMPLETE
+ 3: cgpu08:14066:14066 [3] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecba0
+ 4: cgpu08:14067:14648 [4] NCCL INFO comm 0x2aab74007df0 rank 4 nranks 16 cudaDev 4 nvmlDev 4 - Init COMPLETE
+ 4: cgpu08:14067:14067 [4] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecba0
+ 0: cgpu08:14057:14582 [0] NCCL INFO comm 0x2aab78007df0 rank 0 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+ 0: cgpu08:14057:14057 [0] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab78007df0 [nranks=16] stream 0x5555860ed1a0
+ 0: cgpu08:14057:14057 [0] NCCL INFO Launch mode Parallel
+ 0: broadcast result: tensor(-572.5027, device='cuda:0')
+14: cgpu09:31645:32190 [6] NCCL INFO Ring 11 : 14[6] -> 15[7] via P2P/IPC
+ 0: cgpu08:14057:14057 [0] NCCL INFO AllReduce: opCount 1 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab78007df0 [nranks=16] stream 0x5555860ed1a0
+13: cgpu09:31644:32187 [5] NCCL INFO Trees [0] 14->13->9/-1/-1 [1] 14->13->9/-1/-1 [2] 15->13->-1/-1/-1 [3] 9->13->12/-1/-1 [4] 12->13->14/-1/-1 [5] 9->13->15/-1/-1 [6] 14->13->9/-1/-1 [7] 14->13->9/-1/-1 [8] 15->13->-1/-1/-1 [9] 9->13->12/-1/-1 [10] 12->13->14/-1/-1 [11] 9->13->15/-1/-1
+15: cgpu09:31646:32183 [7] NCCL INFO Trees [0] 11->15->12/-1/-1 [1] 12->15->14/-1/-1 [2] 14->15->13/-1/-1 [3] 12->15->-1/-1/-1 [4] 14->15->11/-1/-1 [5] 13->15->14/-1/-1 [6] 11->15->12/-1/-1 [7] 12->15->14/-1/-1 [8] 14->15->13/-1/-1 [9] 12->15->-1/-1/-1 [10] 14->15->11/-1/-1 [11] 13->15->14/-1/-1
+ 8: cgpu09:31639:32185 [0] NCCL INFO Ring 11 : 8[0] -> 12[4] via P2P/IPC
+12: cgpu09:31643:32184 [4] NCCL INFO Trees [0] 15->12->14/-1/-1 [1] 8->12->15/-1/-1 [2] 4->12->8/-1/-1 [3] 13->12->15/-1/-1 [4] 8->12->13/-1/-1 [5] 14->12->8/-1/-1 [6] 15->12->14/-1/-1 [7] 8->12->15/-1/-1 [8] -1->12->8/4/-1 [9] 13->12->15/-1/-1 [10] 8->12->13/-1/-1 [11] 14->12->8/-1/-1
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 2[2] / HCA 6 'mlx5_3' (no module or not supported by GPU)
+14: cgpu09:31645:32190 [6] NCCL INFO Trees [0] 12->14->13/-1/-1 [1] 15->14->13/-1/-1 [2] 10->14->15/-1/-1 [3] 6->14->10/-1/-1 [4] 13->14->15/-1/-1 [5] 15->14->12/-1/-1 [6] 12->14->13/-1/-1 [7] 15->14->13/-1/-1 [8] 10->14->15/-1/-1 [9] -1->14->10/6/-1 [10] 13->14->15/-1/-1 [11] 15->14->12/-1/-1
+10: cgpu09:31641:32189 [2] NCCL INFO Ring 11 : 10 -> 2 [send] via NET/IB/6
+ 8: cgpu09:31639:32185 [0] NCCL INFO Trees [0] 0->8->10/-1/-1 [1] 10->8->12/-1/-1 [2] 12->8->11/-1/-1 [3] 11->8->9/-1/-1 [4] 0->8->12/-1/-1 [5] 12->8->11/-1/-1 [6] -1->8->10/0/-1 [7] 10->8->12/-1/-1 [8] 12->8->11/-1/-1 [9] 11->8->9/-1/-1 [10] -1->8->12/0/-1 [11] 12->8->11/-1/-1
+10: cgpu09:31641:32189 [2] NCCL INFO NET/IB: Dev 6 Port 1 qpn 2580 mtu 5 GID 0 (80FE/8FFEFAFEFF4B6B52)
+10: cgpu09:31641:32189 [2] NCCL INFO Trees [0] 8->10->11/-1/-1 [1] 2->10->8/-1/-1 [2] 9->10->14/-1/-1 [3] 14->10->11/-1/-1 [4] 11->10->9/-1/-1 [5] 2->10->9/-1/-1 [6] 8->10->11/-1/-1 [7] -1->10->8/2/-1 [8] 9->10->14/-1/-1 [9] 14->10->11/-1/-1 [10] 11->10->9/-1/-1 [11] -1->10->9/2/-1
+ 2: cgpu08:14059:14649 [2] NCCL INFO Trees [0] 0->2->3/-1/-1 [1] -1->2->0/10/-1 [2] 1->2->6/-1/-1 [3] 6->2->3/-1/-1 [4] 3->2->1/-1/-1 [5] -1->2->1/10/-1 [6] 0->2->3/-1/-1 [7] 10->2->0/-1/-1 [8] 1->2->6/-1/-1 [9] 6->2->3/-1/-1 [10] 3->2->1/-1/-1 [11] 10->2->1/-1/-1
+11: cgpu09:31642:32188 [3] NCCL INFO comm 0x2aab74007df0 rank 11 nranks 16 cudaDev 3 nvmlDev 3 - Init COMPLETE
+11: cgpu09:31642:31642 [3] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860eca90
+ 2: cgpu08:14059:14649 [2] NCCL INFO comm 0x2aab74007df0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 - Init COMPLETE
+ 2: cgpu08:14059:14059 [2] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecba0
+ 9: cgpu09:31640:32186 [1] NCCL INFO comm 0x2aab74007df0 rank 9 nranks 16 cudaDev 1 nvmlDev 1 - Init COMPLETE
+ 9: cgpu09:31640:31640 [1] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860eca90
+13: cgpu09:31644:32187 [5] NCCL INFO comm 0x2aab74007df0 rank 13 nranks 16 cudaDev 5 nvmlDev 5 - Init COMPLETE
+13: cgpu09:31644:31644 [5] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ece70
+12: cgpu09:31643:32184 [4] NCCL INFO comm 0x2aab74007df0 rank 12 nranks 16 cudaDev 4 nvmlDev 4 - Init COMPLETE
+12: cgpu09:31643:31643 [4] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860eca90
+15: cgpu09:31646:32183 [7] NCCL INFO comm 0x2aab74007df0 rank 15 nranks 16 cudaDev 7 nvmlDev 7 - Init COMPLETE
+15: cgpu09:31646:31646 [7] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecc70
+ 8: cgpu09:31639:32185 [0] NCCL INFO comm 0x2aab74007df0 rank 8 nranks 16 cudaDev 0 nvmlDev 0 - Init COMPLETE
+ 8: cgpu09:31639:31639 [0] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860eca90
+10: cgpu09:31641:32189 [2] NCCL INFO comm 0x2aab74007df0 rank 10 nranks 16 cudaDev 2 nvmlDev 2 - Init COMPLETE
+10: cgpu09:31641:31641 [2] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860eca90
+14: cgpu09:31645:32190 [6] NCCL INFO comm 0x2aab74007df0 rank 14 nranks 16 cudaDev 6 nvmlDev 6 - Init COMPLETE
+14: cgpu09:31645:31645 [6] NCCL INFO Broadcast: opCount 0 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ece70
+ 3: broadcast result: tensor(-572.5027, device='cuda:3')
+ 3: cgpu08:14066:14066 [3] NCCL INFO AllReduce: opCount 1 sendbuff 0x2aab4ce00000 recvbuff 0x2aab4ce00000 count 131072 datatype 7 op 0 root 0 comm 0x2aab74007df0 [nranks=16] stream 0x5555860ecba0
+10: 
+10: cgpu09:31641:32201 [0] transport/net_ib.cc:789 NCCL WARN NET/IB : Got completion with error 12, opcode 1, len 0, vendor err 129
+10: cgpu09:31641:32201 [0] NCCL INFO include/net.h:29 -> 2
+10: cgpu09:31641:32201 [0] NCCL INFO transport/net.cc:533 -> 2
+10: cgpu09:31641:32201 [0] NCCL INFO transport.cc:163 -> 2 [Proxy Thread]
+10: broadcast result: tensor(-218.0041, device='cuda:2')
+slurmstepd: error: *** JOB 416593 ON cgpu08 CANCELLED AT 2020-01-27T14:51:17 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+ 0: slurmstepd: error: *** STEP 416593.0 ON cgpu08 CANCELLED AT 2020-01-27T14:51:17 DUE TO TIME LIMIT ***
