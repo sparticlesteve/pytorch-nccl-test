@@ -1,0 +1,398 @@
+ 0: Pytorch version 1.4.0a0+a5b4d78
+11: Pytorch version 1.4.0a0+a5b4d78
+ 1: Pytorch version 1.4.0a0+a5b4d78
+12: Pytorch version 1.4.0a0+a5b4d78
+ 2: Pytorch version 1.4.0a0+a5b4d78
+13: Pytorch version 1.4.0a0+a5b4d78
+ 3: Pytorch version 1.4.0a0+a5b4d78
+14: Pytorch version 1.4.0a0+a5b4d78
+ 4: Pytorch version 1.4.0a0+a5b4d78
+15: Pytorch version 1.4.0a0+a5b4d78
+ 5: Pytorch version 1.4.0a0+a5b4d78
+10: Pytorch version 1.4.0a0+a5b4d78
+ 6: Pytorch version 1.4.0a0+a5b4d78
+ 9: Pytorch version 1.4.0a0+a5b4d78
+ 7: Pytorch version 1.4.0a0+a5b4d78
+ 8: Pytorch version 1.4.0a0+a5b4d78
+11: Rank 11 size 16 device cuda:3 count 8
+15: Rank 15 size 16 device cuda:7 count 8
+10: Rank 10 size 16 device cuda:2 count 8
+ 8: Rank 8 size 16 device cuda:0 count 8
+13: Rank 13 size 16 device cuda:5 count 8
+ 9: Rank 9 size 16 device cuda:1 count 8
+12: Rank 12 size 16 device cuda:4 count 8
+14: Rank 14 size 16 device cuda:6 count 8
+ 7: Rank 7 size 16 device cuda:7 count 8
+ 5: Rank 5 size 16 device cuda:5 count 8
+ 2: Rank 2 size 16 device cuda:2 count 8
+ 6: Rank 6 size 16 device cuda:6 count 8
+ 3: Rank 3 size 16 device cuda:3 count 8
+ 0: Rank 0 size 16 device cuda:0 count 8
+ 4: Rank 4 size 16 device cuda:4 count 8
+ 1: Rank 1 size 16 device cuda:1 count 8
+ 0: local result: tensor(-165.0489, device='cuda:0')
+ 1: local result: tensor(-42.7505, device='cuda:1')
+ 2: local result: tensor(-161.3875, device='cuda:2')
+ 4: local result: tensor(96.9058, device='cuda:4')
+ 5: local result: tensor(279.6292, device='cuda:5')
+ 3: local result: tensor(583.0623, device='cuda:3')
+ 7: local result: tensor(183.3893, device='cuda:7')
+ 6: local result: tensor(468.5693, device='cuda:6')
+ 0: cgpu15:44841:44841 [0] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 0: cgpu15:44841:44841 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 0: cgpu15:44841:44841 [0] NCCL INFO NET/IB : No device found.
+ 0: cgpu15:44841:44841 [0] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 0: NCCL version 2.5.6+cuda10.2
+ 8: local result: tensor(625.2772, device='cuda:0')
+ 9: local result: tensor(558.6865, device='cuda:1')
+12: local result: tensor(-237.0279, device='cuda:4')
+14: local result: tensor(306.3876, device='cuda:6')
+10: local result: tensor(-17.6006, device='cuda:2')
+13: local result: tensor(-62.7462, device='cuda:5')
+15: local result: tensor(-1071.6643, device='cuda:7')
+11: local result: tensor(913.7269, device='cuda:3')
+ 1: cgpu15:44842:44842 [1] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 1: cgpu15:44842:44842 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 1: cgpu15:44842:44842 [1] NCCL INFO NET/IB : No device found.
+ 1: cgpu15:44842:44842 [1] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 5: cgpu15:44871:44871 [5] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 5: cgpu15:44871:44871 [5] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 4: cgpu15:44870:44870 [4] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 4: cgpu15:44870:44870 [4] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 2: cgpu15:44868:44868 [2] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 2: cgpu15:44868:44868 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 7: cgpu15:44873:44873 [7] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 7: cgpu15:44873:44873 [7] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 3: cgpu15:44869:44869 [3] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 3: cgpu15:44869:44869 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 6: cgpu15:44872:44872 [6] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 5: cgpu15:44871:44871 [5] NCCL INFO NET/IB : No device found.
+ 6: cgpu15:44872:44872 [6] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 4: cgpu15:44870:44870 [4] NCCL INFO NET/IB : No device found.
+ 4: cgpu15:44870:44870 [4] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 5: cgpu15:44871:44871 [5] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 7: cgpu15:44873:44873 [7] NCCL INFO NET/IB : No device found.
+ 2: cgpu15:44868:44868 [2] NCCL INFO NET/IB : No device found.
+ 3: cgpu15:44869:44869 [3] NCCL INFO NET/IB : No device found.
+ 6: cgpu15:44872:44872 [6] NCCL INFO NET/IB : No device found.
+ 2: cgpu15:44868:44868 [2] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 7: cgpu15:44873:44873 [7] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 3: cgpu15:44869:44869 [3] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 6: cgpu15:44872:44872 [6] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.115<0> [1]ib4:128.55.150.58<0> [2]ib6:10.100.105.115<0>
+ 8: cgpu16:59497:59497 [0] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+ 9: cgpu16:59498:59498 [1] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+10: cgpu16:59499:59499 [2] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+11: cgpu16:59500:59500 [3] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+12: cgpu16:59501:59501 [4] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+13: cgpu16:59502:59502 [5] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+14: cgpu16:59503:59503 [6] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+15: cgpu16:59504:59504 [7] NCCL INFO Bootstrap : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+ 8: cgpu16:59497:59497 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 9: cgpu16:59498:59498 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+10: cgpu16:59499:59499 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+11: cgpu16:59500:59500 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+12: cgpu16:59501:59501 [4] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+13: cgpu16:59502:59502 [5] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+14: cgpu16:59503:59503 [6] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+15: cgpu16:59504:59504 [7] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+ 8: cgpu16:59497:59497 [0] NCCL INFO NET/IB : No device found.
+ 9: cgpu16:59498:59498 [1] NCCL INFO NET/IB : No device found.
+10: cgpu16:59499:59499 [2] NCCL INFO NET/IB : No device found.
+11: cgpu16:59500:59500 [3] NCCL INFO NET/IB : No device found.
+12: cgpu16:59501:59501 [4] NCCL INFO NET/IB : No device found.
+13: cgpu16:59502:59502 [5] NCCL INFO NET/IB : No device found.
+14: cgpu16:59503:59503 [6] NCCL INFO NET/IB : No device found.
+15: cgpu16:59504:59504 [7] NCCL INFO NET/IB : No device found.
+ 8: cgpu16:59497:59497 [0] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+10: cgpu16:59499:59499 [2] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+11: cgpu16:59500:59500 [3] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+12: cgpu16:59501:59501 [4] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+13: cgpu16:59502:59502 [5] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+14: cgpu16:59503:59503 [6] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+15: cgpu16:59504:59504 [7] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+ 9: cgpu16:59498:59498 [1] NCCL INFO NET/Socket : Using [0]ib1:10.101.105.116<0> [1]ib4:128.55.150.59<0> [2]ib6:10.100.105.116<0>
+ 3: cgpu15:44869:47123 [3] NCCL INFO Setting affinity for GPU 3 to 0fffff00,000fffff
+ 2: cgpu15:44868:47124 [2] NCCL INFO Setting affinity for GPU 2 to 0fffff00,000fffff
+ 7: cgpu15:44873:47125 [7] NCCL INFO Setting affinity for GPU 7 to ffff,f00000ff,fff00000
+ 5: cgpu15:44871:47126 [5] NCCL INFO Setting affinity for GPU 5 to ffff,f00000ff,fff00000
+ 4: cgpu15:44870:47127 [4] NCCL INFO Setting affinity for GPU 4 to ffff,f00000ff,fff00000
+ 0: cgpu15:44841:47128 [0] NCCL INFO Setting affinity for GPU 0 to 0fffff00,000fffff
+ 1: cgpu15:44842:47129 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff00,000fffff
+ 6: cgpu15:44872:47130 [6] NCCL INFO Setting affinity for GPU 6 to ffff,f00000ff,fff00000
+12: cgpu16:59501:61028 [4] NCCL INFO Setting affinity for GPU 4 to ffff,f00000ff,fff00000
+11: cgpu16:59500:61029 [3] NCCL INFO Setting affinity for GPU 3 to 0fffff00,000fffff
+14: cgpu16:59503:61032 [6] NCCL INFO Setting affinity for GPU 6 to ffff,f00000ff,fff00000
+13: cgpu16:59502:61030 [5] NCCL INFO Setting affinity for GPU 5 to ffff,f00000ff,fff00000
+ 8: cgpu16:59497:61031 [0] NCCL INFO Setting affinity for GPU 0 to 0fffff00,000fffff
+10: cgpu16:59499:61033 [2] NCCL INFO Setting affinity for GPU 2 to 0fffff00,000fffff
+ 9: cgpu16:59498:61034 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff00,000fffff
+15: cgpu16:59504:61035 [7] NCCL INFO Setting affinity for GPU 7 to ffff,f00000ff,fff00000
+13: cgpu16:59502:61030 [5] NCCL INFO Threads per block : 512/640/512
+13: cgpu16:59502:61030 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+13: cgpu16:59502:61030 [5] NCCL INFO Trees [0] 9/-1/-1->13->14|14->13->9/-1/-1 [1] -1/-1/-1->13->9|9->13->-1/-1/-1 [2] 9/-1/-1->13->14|14->13->9/-1/-1 [3] -1/-1/-1->13->9|9->13->-1/-1/-1
+14: cgpu16:59503:61032 [6] NCCL INFO Threads per block : 512/640/512
+14: cgpu16:59503:61032 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+14: cgpu16:59503:61032 [6] NCCL INFO Trees [0] 13/-1/-1->14->15|15->14->13/-1/-1 [1] 15/-1/-1->14->7|7->14->15/-1/-1 [2] 13/-1/-1->14->15|15->14->13/-1/-1 [3] 15/-1/-1->14->-1|-1->14->15/-1/-1
+15: cgpu16:59504:61035 [7] NCCL INFO Threads per block : 512/640/512
+15: cgpu16:59504:61035 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+15: cgpu16:59504:61035 [7] NCCL INFO Trees [0] 14/-1/-1->15->12|12->15->14/-1/-1 [1] 12/-1/-1->15->14|14->15->12/-1/-1 [2] 14/-1/-1->15->12|12->15->14/-1/-1 [3] 12/6/-1->15->14|14->15->12/6/-1
+ 0: cgpu15:44841:47128 [0] NCCL INFO Channel 00/04 :    0   4   5   6   7   3  10   9   8  12  13  14  15  11   2   1
+ 0: cgpu15:44841:47128 [0] NCCL INFO Channel 01/04 :    0   1   2   3   7  14  13  12   8   9  10  11  15   6   5   4
+ 0: cgpu15:44841:47128 [0] NCCL INFO Channel 02/04 :    0   4   5   6   7   3  10   9   8  12  13  14  15  11   2   1
+ 0: cgpu15:44841:47128 [0] NCCL INFO Channel 03/04 :    0   1   2   3   7  14  13  12   8   9  10  11  15   6   5   4
+ 0: cgpu15:44841:47128 [0] NCCL INFO Threads per block : 512/640/512
+ 0: cgpu15:44841:47128 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 0: cgpu15:44841:47128 [0] NCCL INFO Trees [0] 4/-1/-1->0->3|3->0->4/-1/-1 [1] 3/-1/-1->0->4|4->0->3/-1/-1 [2] 4/-1/-1->0->3|3->0->4/-1/-1 [3] 3/-1/-1->0->4|4->0->3/-1/-1
+ 1: cgpu15:44842:47129 [1] NCCL INFO Threads per block : 512/640/512
+ 1: cgpu15:44842:47129 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 1: cgpu15:44842:47129 [1] NCCL INFO Trees [0] -1/-1/-1->1->5|5->1->-1/-1/-1 [1] 5/-1/-1->1->2|2->1->5/-1/-1 [2] -1/-1/-1->1->5|5->1->-1/-1/-1 [3] 5/-1/-1->1->2|2->1->5/-1/-1
+ 2: cgpu15:44868:47124 [2] NCCL INFO Threads per block : 512/640/512
+ 2: cgpu15:44868:47124 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 2: cgpu15:44868:47124 [2] NCCL INFO Trees [0] 3/-1/-1->2->-1|-1->2->3/-1/-1 [1] 1/-1/-1->2->3|3->2->1/-1/-1 [2] 3/-1/-1->2->11|11->2->3/-1/-1 [3] 1/-1/-1->2->3|3->2->1/-1/-1
+ 3: cgpu15:44869:47123 [3] NCCL INFO Threads per block : 512/640/512
+ 3: cgpu15:44869:47123 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 3: cgpu15:44869:47123 [3] NCCL INFO Trees [0] 0/10/-1->3->2|2->3->0/10/-1 [1] 2/-1/-1->3->0|0->3->2/-1/-1 [2] 0/-1/-1->3->2|2->3->0/-1/-1 [3] 2/-1/-1->3->0|0->3->2/-1/-1
+ 4: cgpu15:44870:47127 [4] NCCL INFO Threads per block : 512/640/512
+ 4: cgpu15:44870:47127 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 4: cgpu15:44870:47127 [4] NCCL INFO Trees [0] 7/-1/-1->4->0|0->4->7/-1/-1 [1] 0/-1/-1->4->7|7->4->0/-1/-1 [2] 7/-1/-1->4->0|0->4->7/-1/-1 [3] 0/-1/-1->4->7|7->4->0/-1/-1
+ 5: cgpu15:44871:47126 [5] NCCL INFO Threads per block : 512/640/512
+ 5: cgpu15:44871:47126 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 5: cgpu15:44871:47126 [5] NCCL INFO Trees [0] 1/-1/-1->5->6|6->5->1/-1/-1 [1] -1/-1/-1->5->1|1->5->-1/-1/-1 [2] 1/-1/-1->5->6|6->5->1/-1/-1 [3] -1/-1/-1->5->1|1->5->-1/-1/-1
+ 6: cgpu15:44872:47130 [6] NCCL INFO Threads per block : 512/640/512
+ 6: cgpu15:44872:47130 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 6: cgpu15:44872:47130 [6] NCCL INFO Trees [0] 5/-1/-1->6->7|7->6->5/-1/-1 [1] 7/-1/-1->6->-1|-1->6->7/-1/-1 [2] 5/-1/-1->6->7|7->6->5/-1/-1 [3] 7/-1/-1->6->15|15->6->7/-1/-1
+ 7: cgpu15:44873:47125 [7] NCCL INFO Threads per block : 512/640/512
+ 7: cgpu15:44873:47125 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 7: cgpu15:44873:47125 [7] NCCL INFO Trees [0] 6/-1/-1->7->4|4->7->6/-1/-1 [1] 4/14/-1->7->6|6->7->4/14/-1 [2] 6/-1/-1->7->4|4->7->6/-1/-1 [3] 4/-1/-1->7->6|6->7->4/-1/-1
+ 8: cgpu16:59497:61031 [0] NCCL INFO Threads per block : 512/640/512
+ 8: cgpu16:59497:61031 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 8: cgpu16:59497:61031 [0] NCCL INFO Trees [0] 12/-1/-1->8->11|11->8->12/-1/-1 [1] 11/-1/-1->8->12|12->8->11/-1/-1 [2] 12/-1/-1->8->11|11->8->12/-1/-1 [3] 11/-1/-1->8->12|12->8->11/-1/-1
+ 9: cgpu16:59498:61034 [1] NCCL INFO Threads per block : 512/640/512
+ 9: cgpu16:59498:61034 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+ 9: cgpu16:59498:61034 [1] NCCL INFO Trees [0] -1/-1/-1->9->13|13->9->-1/-1/-1 [1] 13/-1/-1->9->10|10->9->13/-1/-1 [2] -1/-1/-1->9->13|13->9->-1/-1/-1 [3] 13/-1/-1->9->10|10->9->13/-1/-1
+10: cgpu16:59499:61033 [2] NCCL INFO Threads per block : 512/640/512
+10: cgpu16:59499:61033 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+10: cgpu16:59499:61033 [2] NCCL INFO Trees [0] 11/-1/-1->10->3|3->10->11/-1/-1 [1] 9/-1/-1->10->11|11->10->9/-1/-1 [2] 11/-1/-1->10->-1|-1->10->11/-1/-1 [3] 9/-1/-1->10->11|11->10->9/-1/-1
+11: cgpu16:59500:61029 [3] NCCL INFO Threads per block : 512/640/512
+11: cgpu16:59500:61029 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+11: cgpu16:59500:61029 [3] NCCL INFO Trees [0] 8/-1/-1->11->10|10->11->8/-1/-1 [1] 10/-1/-1->11->8|8->11->10/-1/-1 [2] 8/2/-1->11->10|10->11->8/2/-1 [3] 10/-1/-1->11->8|8->11->10/-1/-1
+12: cgpu16:59501:61028 [4] NCCL INFO Threads per block : 512/640/512
+12: cgpu16:59501:61028 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64
+12: cgpu16:59501:61028 [4] NCCL INFO Trees [0] 15/-1/-1->12->8|8->12->15/-1/-1 [1] 8/-1/-1->12->15|15->12->8/-1/-1 [2] 15/-1/-1->12->8|8->12->15/-1/-1 [3] 8/-1/-1->12->15|15->12->8/-1/-1
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 00 : 13[89000] -> 14[b2000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 00 : 14[b2000] -> 15[b3000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 00 : 5[89000] -> 6[b2000] via P2P/IPC
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 00 : 4[88000] -> 5[89000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 00 : 15[b3000] -> 11[3e000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 00 : 6[b2000] -> 7[b3000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 00 : 8[1a000] -> 12[88000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 00 : 7[b3000] -> 3[3e000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 00 : 9[1b000] -> 8[1a000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 00 : 12[88000] -> 13[89000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 00 : 11[3e000] -> 2[3d000] [send] via NET/Socket/0
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 00 : 1[1b000] -> 0[1a000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 00 : 0[1a000] -> 4[88000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 00 : 3[3e000] -> 10[3d000] [receive] via NET/Socket/0
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 00 : 15[b3000] -> 12[88000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 00 : 3[3e000] -> 10[3d000] [send] via NET/Socket/0
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 00 : 7[b3000] -> 4[88000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 00 : 11[3e000] -> 2[3d000] [receive] via NET/Socket/0
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 00 : 14[b2000] -> 13[89000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 00 : 10[3d000] -> 9[1b000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 00 : 6[b2000] -> 5[89000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 00 : 2[3d000] -> 1[1b000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 00 : 8[1a000] -> 11[3e000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 00 : 9[1b000] -> 13[89000] via P2P/IPC
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 00 : 4[88000] -> 0[1a000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 00 : 1[1b000] -> 5[89000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 00 : 12[88000] -> 8[1a000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 00 : 0[1a000] -> 3[3e000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 00 : 11[3e000] -> 10[3d000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 00 : 7[b3000] -> 6[b2000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 00 : 10[3d000] -> 3[3e000] [receive] via NET/Socket/0
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 00 : 4[88000] -> 7[b3000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 00 : 10[3d000] -> 3[3e000] [send] via NET/Socket/0
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 00 : 15[b3000] -> 14[b2000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 00 : 3[3e000] -> 2[3d000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 00 : 13[89000] -> 9[1b000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 00 : 5[89000] -> 1[1b000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 00 : 12[88000] -> 15[b3000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 00 : 10[3d000] -> 11[3e000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 00 : 11[3e000] -> 8[1a000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 00 : 2[3d000] -> 3[3e000] via P2P/IPC
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 01 : 4[88000] -> 0[1a000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 01 : 1[1b000] -> 2[3d000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 01 : 5[89000] -> 4[88000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 01 : 9[1b000] -> 10[3d000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 00 : 3[3e000] -> 0[1a000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 01 : 12[88000] -> 8[1a000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 01 : 15[b3000] -> 6[b2000] [receive] via NET/Socket/1
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 01 : 13[89000] -> 12[88000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 01 : 7[b3000] -> 14[b2000] [receive] via NET/Socket/1
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 01 : 7[b3000] -> 14[b2000] [send] via NET/Socket/1
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 01 : 6[b2000] -> 5[89000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 01 : 2[3d000] -> 3[3e000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 01 : 10[3d000] -> 11[3e000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 01 : 8[1a000] -> 9[1b000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 01 : 14[b2000] -> 13[89000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 01 : 15[b3000] -> 6[b2000] [send] via NET/Socket/1
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 01 : 0[1a000] -> 1[1b000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 01 : 5[89000] -> 1[1b000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 01 : 11[3e000] -> 15[b3000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 01 : 3[3e000] -> 7[b3000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 01 : 13[89000] -> 9[1b000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 01 : 12[88000] -> 15[b3000] via P2P/IPC
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 01 : 4[88000] -> 7[b3000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 01 : 3[3e000] -> 0[1a000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 01 : 2[3d000] -> 1[1b000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 01 : 11[3e000] -> 8[1a000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 01 : 15[b3000] -> 14[b2000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 01 : 10[3d000] -> 9[1b000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 01 : 0[1a000] -> 4[88000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 01 : 8[1a000] -> 12[88000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 01 : 1[1b000] -> 5[89000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 01 : 14[b2000] -> 7[b3000] [send] via NET/Socket/1
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 01 : 14[b2000] -> 7[b3000] [receive] via NET/Socket/1
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 01 : 9[1b000] -> 13[89000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 01 : 3[3e000] -> 2[3d000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 01 : 7[b3000] -> 6[b2000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 01 : 0[1a000] -> 3[3e000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 01 : 11[3e000] -> 10[3d000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 01 : 8[1a000] -> 11[3e000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 01 : 14[b2000] -> 15[b3000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 02 : 5[89000] -> 6[b2000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 01 : 6[b2000] -> 7[b3000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 01 : 15[b3000] -> 12[88000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 02 : 1[1b000] -> 0[1a000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 02 : 13[89000] -> 14[b2000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 02 : 11[3e000] -> 2[3d000] [receive] via NET/Socket/0
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 02 : 0[1a000] -> 4[88000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 01 : 7[b3000] -> 4[88000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 02 : 9[1b000] -> 8[1a000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 02 : 2[3d000] -> 1[1b000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 02 : 8[1a000] -> 12[88000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 02 : 14[b2000] -> 15[b3000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 02 : 3[3e000] -> 10[3d000] [receive] via NET/Socket/0
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 02 : 12[88000] -> 13[89000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 02 : 6[b2000] -> 7[b3000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 02 : 1[1b000] -> 5[89000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 02 : 3[3e000] -> 10[3d000] [send] via NET/Socket/0
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 02 : 4[88000] -> 5[89000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 02 : 15[b3000] -> 11[3e000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 02 : 10[3d000] -> 9[1b000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 02 : 7[b3000] -> 3[3e000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 02 : 11[3e000] -> 2[3d000] [send] via NET/Socket/0
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 02 : 0[1a000] -> 3[3e000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 02 : 8[1a000] -> 11[3e000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 02 : 14[b2000] -> 13[89000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 02 : 9[1b000] -> 13[89000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 02 : 15[b3000] -> 12[88000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 02 : 12[88000] -> 8[1a000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 02 : 6[b2000] -> 5[89000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 02 : 7[b3000] -> 4[88000] via P2P/IPC
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 02 : 4[88000] -> 0[1a000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 02 : 3[3e000] -> 2[3d000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 02 : 5[89000] -> 1[1b000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 02 : 2[3d000] -> 11[3e000] [send] via NET/Socket/0
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 02 : 12[88000] -> 15[b3000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 02 : 13[89000] -> 9[1b000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 02 : 15[b3000] -> 14[b2000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 02 : 2[3d000] -> 11[3e000] [receive] via NET/Socket/0
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 02 : 4[88000] -> 7[b3000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 02 : 7[b3000] -> 6[b2000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 02 : 11[3e000] -> 10[3d000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 02 : 2[3d000] -> 3[3e000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 02 : 3[3e000] -> 0[1a000] via P2P/IPC
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 03 : 1[1b000] -> 2[3d000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 03 : 12[88000] -> 8[1a000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 03 : 9[1b000] -> 10[3d000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 02 : 10[3d000] -> 11[3e000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 03 : 13[89000] -> 12[88000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 03 : 5[89000] -> 4[88000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 03 : 7[b3000] -> 14[b2000] [receive] via NET/Socket/1
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 03 : 4[88000] -> 0[1a000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 02 : 11[3e000] -> 8[1a000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 03 : 14[b2000] -> 13[89000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 03 : 15[b3000] -> 6[b2000] [receive] via NET/Socket/1
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 03 : 2[3d000] -> 3[3e000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 03 : 0[1a000] -> 1[1b000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 03 : 10[3d000] -> 11[3e000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 03 : 15[b3000] -> 6[b2000] [send] via NET/Socket/1
+13: cgpu16:59502:61030 [5] NCCL INFO Ring 03 : 13[89000] -> 9[1b000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 03 : 6[b2000] -> 5[89000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 03 : 8[1a000] -> 9[1b000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 03 : 3[3e000] -> 7[b3000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 03 : 11[3e000] -> 15[b3000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 03 : 7[b3000] -> 14[b2000] [send] via NET/Socket/1
+ 4: cgpu15:44870:47127 [4] NCCL INFO Ring 03 : 4[88000] -> 7[b3000] via P2P/IPC
+ 5: cgpu15:44871:47126 [5] NCCL INFO Ring 03 : 5[89000] -> 1[1b000] via P2P/IPC
+12: cgpu16:59501:61028 [4] NCCL INFO Ring 03 : 12[88000] -> 15[b3000] via P2P/IPC
+ 2: cgpu15:44868:47124 [2] NCCL INFO Ring 03 : 2[3d000] -> 1[1b000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 03 : 0[1a000] -> 4[88000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 03 : 3[3e000] -> 0[1a000] via P2P/IPC
+10: cgpu16:59499:61033 [2] NCCL INFO Ring 03 : 10[3d000] -> 9[1b000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 03 : 11[3e000] -> 8[1a000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 03 : 7[b3000] -> 6[b2000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 03 : 8[1a000] -> 12[88000] via P2P/IPC
+ 9: cgpu16:59498:61034 [1] NCCL INFO Ring 03 : 9[1b000] -> 13[89000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 03 : 6[b2000] -> 15[b3000] [send] via NET/Socket/1
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 03 : 6[b2000] -> 15[b3000] [receive] via NET/Socket/1
+ 1: cgpu15:44842:47129 [1] NCCL INFO Ring 03 : 1[1b000] -> 5[89000] via P2P/IPC
+11: cgpu16:59500:61029 [3] NCCL INFO Ring 03 : 11[3e000] -> 10[3d000] via P2P/IPC
+ 0: cgpu15:44841:47128 [0] NCCL INFO Ring 03 : 0[1a000] -> 3[3e000] via P2P/IPC
+ 3: cgpu15:44869:47123 [3] NCCL INFO Ring 03 : 3[3e000] -> 2[3d000] via P2P/IPC
+ 8: cgpu16:59497:61031 [0] NCCL INFO Ring 03 : 8[1a000] -> 11[3e000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 03 : 15[b3000] -> 14[b2000] via P2P/IPC
+ 6: cgpu15:44872:47130 [6] NCCL INFO Ring 03 : 6[b2000] -> 7[b3000] via P2P/IPC
+ 7: cgpu15:44873:47125 [7] NCCL INFO Ring 03 : 7[b3000] -> 4[88000] via P2P/IPC
+14: cgpu16:59503:61032 [6] NCCL INFO Ring 03 : 14[b2000] -> 15[b3000] via P2P/IPC
+15: cgpu16:59504:61035 [7] NCCL INFO Ring 03 : 15[b3000] -> 12[88000] via P2P/IPC
+13: cgpu16:59502:61030 [5] NCCL INFO comm 0x2aac4c007e10 rank 13 nranks 16 cudaDev 5 busId 89000 - Init COMPLETE
+ 5: cgpu15:44871:47126 [5] NCCL INFO comm 0x2aac4c007e10 rank 5 nranks 16 cudaDev 5 busId 89000 - Init COMPLETE
+ 9: cgpu16:59498:61034 [1] NCCL INFO comm 0x2aac4c007e10 rank 9 nranks 16 cudaDev 1 busId 1b000 - Init COMPLETE
+ 2: cgpu15:44868:47124 [2] NCCL INFO comm 0x2aac4c007e10 rank 2 nranks 16 cudaDev 2 busId 3d000 - Init COMPLETE
+ 8: cgpu16:59497:61031 [0] NCCL INFO comm 0x2aac50007e10 rank 8 nranks 16 cudaDev 0 busId 1a000 - Init COMPLETE
+ 3: cgpu15:44869:47123 [3] NCCL INFO comm 0x2aac4c007e10 rank 3 nranks 16 cudaDev 3 busId 3e000 - Init COMPLETE
+ 0: cgpu15:44841:47128 [0] NCCL INFO comm 0x2aac5c007e10 rank 0 nranks 16 cudaDev 0 busId 1a000 - Init COMPLETE
+10: cgpu16:59499:61033 [2] NCCL INFO comm 0x2aac4c007e10 rank 10 nranks 16 cudaDev 2 busId 3d000 - Init COMPLETE
+ 0: cgpu15:44841:44841 [0] NCCL INFO Launch mode Parallel
+11: cgpu16:59500:61029 [3] NCCL INFO comm 0x2aac4c007e10 rank 11 nranks 16 cudaDev 3 busId 3e000 - Init COMPLETE
+ 6: cgpu15:44872:47130 [6] NCCL INFO comm 0x2aac50007e10 rank 6 nranks 16 cudaDev 6 busId b2000 - Init COMPLETE
+14: cgpu16:59503:61032 [6] NCCL INFO comm 0x2aac4c007e10 rank 14 nranks 16 cudaDev 6 busId b2000 - Init COMPLETE
+ 4: cgpu15:44870:47127 [4] NCCL INFO comm 0x2aac50007e10 rank 4 nranks 16 cudaDev 4 busId 88000 - Init COMPLETE
+12: cgpu16:59501:61028 [4] NCCL INFO comm 0x2aac50007e10 rank 12 nranks 16 cudaDev 4 busId 88000 - Init COMPLETE
+ 1: cgpu15:44842:47129 [1] NCCL INFO comm 0x2aac50007e10 rank 1 nranks 16 cudaDev 1 busId 1b000 - Init COMPLETE
+15: cgpu16:59504:61035 [7] NCCL INFO comm 0x2aac50007e10 rank 15 nranks 16 cudaDev 7 busId b3000 - Init COMPLETE
+ 0: broadcast result: tensor(-165.0489, device='cuda:0')
+ 7: cgpu15:44873:47125 [7] NCCL INFO comm 0x2aac4c007e10 rank 7 nranks 16 cudaDev 7 busId b3000 - Init COMPLETE
+ 3: broadcast result: tensor(-165.0489, device='cuda:3')
+14: broadcast result: tensor(-165.0489, device='cuda:6')
+13: broadcast result: tensor(-165.0489, device='cuda:5')
+15: broadcast result: tensor(-165.0489, device='cuda:7')
+10: broadcast result: tensor(-165.0489, device='cuda:2')
+11: broadcast result: tensor(-165.0489, device='cuda:3')
+ 8: broadcast result: tensor(-165.0489, device='cuda:0')
+ 9: broadcast result: tensor(-165.0489, device='cuda:1')
+ 4: broadcast result: tensor(-165.0489, device='cuda:4')
+ 6: broadcast result: tensor(-165.0489, device='cuda:6')
+12: broadcast result: tensor(-165.0489, device='cuda:4')
+ 1: broadcast result: tensor(-165.0489, device='cuda:1')
+ 2: broadcast result: tensor(-165.0489, device='cuda:2')
+ 5: broadcast result: tensor(-165.0489, device='cuda:5')
+ 7: broadcast result: tensor(-165.0489, device='cuda:7')
+ 2: allreduce result: tensor(-2640.7820, device='cuda:2')
+ 3: allreduce result: tensor(-2640.7820, device='cuda:3')
+ 6: allreduce result: tensor(-2640.7820, device='cuda:6')
+ 1: allreduce result: tensor(-2640.7820, device='cuda:1')
+ 0: allreduce result: tensor(-2640.7820, device='cuda:0')
+ 5: allreduce result: tensor(-2640.7820, device='cuda:5')
+ 4: allreduce result: tensor(-2640.7820, device='cuda:4')
+ 7: allreduce result: tensor(-2640.7820, device='cuda:7')
+ 8: allreduce result: tensor(-2640.7820, device='cuda:0')
+ 9: allreduce result: tensor(-2640.7820, device='cuda:1')
+10: allreduce result: tensor(-2640.7820, device='cuda:2')
+11: allreduce result: tensor(-2640.7820, device='cuda:3')
+13: allreduce result: tensor(-2640.7820, device='cuda:5')
+14: allreduce result: tensor(-2640.7820, device='cuda:6')
+15: allreduce result: tensor(-2640.7820, device='cuda:7')
+12: allreduce result: tensor(-2640.7820, device='cuda:4')

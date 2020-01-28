@@ -10,7 +10,7 @@
 
 # This example script uses the nvidia-pytorch docker container via shifter
 
-#export NCCL_DEBUG=INFO
+export NCCL_DEBUG=INFO
 #export NCCL_DEBUG_SUBSYS=ALL
 
 srun -u -l shifter python test_nccl.py
