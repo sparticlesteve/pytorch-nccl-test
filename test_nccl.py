@@ -18,7 +18,7 @@ def init_workers_nccl_file():
 print('Pytorch version', torch.__version__)
 
 # Configuration
-ranks_per_node = 8
+ranks_per_node = 4
 shape = 2**17
 dtype = torch.float32
 
